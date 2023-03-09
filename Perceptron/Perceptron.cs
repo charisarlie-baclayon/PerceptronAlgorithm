@@ -24,7 +24,7 @@ namespace Perceptron
         {
             weights[0] = random.NextDouble() * 2 - 1;
             weights[1] = random.NextDouble() * 2 - 1;
-            bias = 1;
+            bias = random.NextDouble() * 2 - 1;
             learningRate = 1;
         }
 

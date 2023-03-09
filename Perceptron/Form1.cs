@@ -57,11 +57,13 @@ namespace Perceptron
             radioButtonNand.Checked = false;
             radioButtonNor.Checked = false;
             radioButtonXnor.Checked = false;
+            label2.Text = "";
             pictureBox1.Image= null;
         }
 
         private void buttonTrain_Click(object sender, EventArgs e)
         {
+
             if (radioButtonAnd.Checked == false &&
                 radioButtonOr.Checked == false &&
                 radioButtonNand.Checked == false &&
